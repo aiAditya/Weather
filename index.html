@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="website.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Weather app</h1>
+      <form>
+        <input type="text" placeholder="Enter city" id="city_name" />
+        <input type="submit" value="get weather" />
+      </form>
+      <div class="detail">
+        <div class="icon">°C</div>
+        <div class="temp">
+          <div class="image">
+            <img
+              src="https://openweathermap.org/img/wn/01d.png"
+              alt="sky"
+              class="cloud"
+              width="80px"
+              height="80px"
+            />
+          </div>
+          <span id="heading">Temprature</span>
+        </div>
+        <div class="moredetail">
+          <div class="smlDiv">
+            <img src="./Image/dew.png" width="40px" height="40px" /><span
+              >Feels like:</span
+            >
+          </div>
+          <div class="smlDiv">
+            <img src="./Image/humidity.png" width="40px" height="40px" /><span
+              >Humidity:
+            </span>
+          </div>
+          <div class="smlDiv">
+            <img src="./Image/wind.png" width="40px" height="40px" /><span
+              >Wind speed:</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="website.js"></script>
+  </body>
+</html>
